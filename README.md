@@ -16,9 +16,7 @@ GQL 이란?: https://tech.kakao.com/2019/08/01/graphql-basic/
 <p>
   <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=GraphQL&logoColor=white"/>
   <img src="https://img.shields.io/badge/GraphQL Code Generator-E10098?style=flat-square&logo=GraphQL&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React Query
--FF4154?style=flat-square&logo=React Query
-&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React Query-FF4154?style=flat-square&logo=React Query&logoColor=white"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=TypeScript&logoColor=white"/>
