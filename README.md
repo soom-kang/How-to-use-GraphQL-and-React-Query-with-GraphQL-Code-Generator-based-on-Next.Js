@@ -13,6 +13,18 @@ GQL 이란?: https://tech.kakao.com/2019/08/01/graphql-basic/
 
 ## Getting Started
 
+<p>
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=GraphQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GraphQL Code Generator-E10098?style=flat-square&logo=GraphQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React Query
+-FF4154?style=flat-square&logo=React Query
+&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=TypeScript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white"/>
+</p>
+
 원하는 프로젝트 폴더에 `Next.Js TypeScript` 프로젝트를 생성
 
 ##### Terminal
@@ -558,6 +570,8 @@ export default New;
 ---
 
 ## Result
+
+### 👉 [CodeSandBox Sample Link](https://codesandbox.io/p/github/soom-kang/How-to-use-GraphQL-and-React-Query-with-GraphQL-Code-Generator-based-on-Next.Js/main?workspaceId=99d1ebdb-6029-4fa4-945c-b71e7dfc3e5d&file=%2FREADME.md&workspace=%257B%2522activeFileId%2522%253A%2522clego8pow000ng8g20aungbyw%2522%252C%2522openFiles%2522%253A%255B%2522%252FREADME.md%2522%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522spaces%2522%253A%257B%2522clego8u4l00153b6l772jaxcf%2522%253A%257B%2522key%2522%253A%2522clego8u4l00153b6l772jaxcf%2522%252C%2522name%2522%253A%2522Default%2522%252C%2522devtools%2522%253A%255B%257B%2522type%2522%253A%2522PREVIEW%2522%252C%2522taskId%2522%253A%2522dev%2522%252C%2522port%2522%253A3000%252C%2522key%2522%253A%2522clego96nj007p3b6lm2fzr49o%2522%252C%2522isMinimized%2522%253Afalse%252C%2522path%2522%253A%2522%252Flegacy%2522%257D%252C%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522dev%2522%252C%2522key%2522%253A%2522clego95hw00583b6lzjxv3uru%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D%257D%252C%2522currentSpace%2522%253A%2522clego8u4l00153b6l772jaxcf%2522%252C%2522spacesOrder%2522%253A%255B%2522clego8u4l00153b6l772jaxcf%2522%255D%252C%2522hideCodeEditor%2522%253Afalse%257D)
 
 ![gql_gen_2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0puk8hh2ap7s3l53k044.png)
 
