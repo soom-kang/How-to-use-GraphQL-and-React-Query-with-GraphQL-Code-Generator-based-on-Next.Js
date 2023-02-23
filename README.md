@@ -355,27 +355,27 @@ pnpm add -D yaml-loader
 
 `codegen.yml` 파일을 생성한 뒤 설정값 입력
 
-#### Note
-
-- `schema` 는 `graphql` 폴더 안에 `[filename].graphql`로 관리하기로 한다. (ts나 다른 확장자도 가능)
-- `documents`에는 `gql schema` 파일 형식과 위치를 설정해준다.
-
-```yml
-documents: 'graphql/**/!(*.generated).{graphql,ts}'
-```
-
-- `schema` 는 `GQL URL` 위치. 여기서는 환경 변수로 관리 하기때문에 다음과 같이 작성
-
-```yml
-schema: ${NEXT_PUBLIC_GRAPHQL_URL}
-```
-
-- 중요 옵션들은 다음과 같다.
-  나머지 내용들은 하기 링크에서 확인:
-  https://www.graphql-code-generator.com/plugins/typescript/typescript-react-query
-  - `exposeFetcher`: `GetStaticProps`, `GetServerSideProps` 에 prefetch로 사용할 query fetcher 함수를 export
-  - `exposeQueryKey`: `react quey`의 `query key` 도 export
-  - `fetcher` : fetcher로 사용할 모듈. 여기서는 기존에 사용했던 `graphql-request` 사용한다.
+> #### Note
+>
+> - `schema` 는 `graphql` 폴더 안에 `[filename].graphql`로 관리하기로 한다. (ts나 다른 확장자도 가능)
+> - `documents`에는 `gql schema` 파일 형식과 위치를 설정해준다.
+>
+> ```yml
+> documents: 'graphql/**/!(*.generated).{graphql,ts}'
+> ```
+>
+> - `schema` 는 `GQL URL` 위치. 여기서는 환경 변수로 관리 하기때문에 다음과 같이 작성
+>
+> ```yml
+> schema: ${NEXT_PUBLIC_GRAPHQL_URL}
+> ```
+>
+> - 중요 옵션들은 다음과 같다.
+>   나머지 내용들은 하기 링크에서 확인:
+>   https://www.graphql-code-generator.com/plugins/typescript/typescript-react-query
+>   - `exposeFetcher`: `GetStaticProps`, `GetServerSideProps` 에 prefetch로 사용할 query fetcher 함수를 export
+>   - `exposeQueryKey`: `react quey`의 `query key` 도 export
+>   - `fetcher` : fetcher로 사용할 모듈. 여기서는 기존에 사용했던 `graphql-request` 사용한다.
 
 ##### codegen.yml
 
