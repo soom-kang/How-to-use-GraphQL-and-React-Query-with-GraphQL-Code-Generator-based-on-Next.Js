@@ -1,0 +1,23 @@
+query album($id: ID!) {
+	album(id: $id) {
+		id
+		title
+		user {
+			id
+			name
+			username
+			email
+			company {
+				name
+				bs
+			}
+		}
+		photos {
+			data {
+				id
+				title
+				url
+			}
+		}
+	}
+}
